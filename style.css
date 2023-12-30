@@ -1,0 +1,75 @@
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Figtree', sans-serif;
+}
+main {
+    background: var(--White);
+    height: 800px;
+    width: 600px;
+    border-radius: 30px;
+    text-align: start;
+    box-shadow: 10px 8px;
+    border: solid black 2px;
+}
+figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+.main-container {
+    height: 750px;
+    width: 560px;
+    margin: 30px 20px 30px 20px;
+}
+h3 {
+background-color: var(--Yellow);
+width: 20%;
+height: 5%;
+margin: 20px 30px 10px 0;
+padding-top: 9px;
+text-align: center;
+border-radius: 5px;
+color: var(--Black);
+}
+p {
+    margin: 20px 0 20px 0;
+}
+h4 {
+    font-size: 27px;
+    color: var(--Black);
+}
+h4:hover {
+    color: var(--Yellow);
+    cursor: pointer;
+}
+article {
+    color: var(--Grey);
+    margin: 30px 0 60px 0;
+    font-size: 16px;
+}
+footer {
+    display: flex;
+    align-items: center;
+}
+footer img {
+    width: 50px;
+    height: auto;
+}
+footer span {
+    margin-left: 15px;
+    font-weight: 800;
+}
